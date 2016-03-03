@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="Gne-s8-9X7" customClass="ProductTitleCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gne-s8-9X7" id="fUb-dD-eho">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvp-SP-RXm">
+                        <rect key="frame" x="8" y="8" width="304" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="AAJ-2v-xI3"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Grass is always greener where it's watered">
+                                <attributes>
+                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UmT-bK-po1">
+                        <rect key="frame" x="8" y="32" width="37" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="37" id="njl-wZ-hwC"/>
+                            <constraint firstAttribute="height" constant="20" id="xFG-M7-ISr"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Price">
+                                <attributes>
+                                    <font key="NSFont" size="14" name="AvenirNext-UltraLight"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEF-L3-oW0">
+                        <rect key="frame" x="49" y="32" width="62" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Yfa-Ia-nNh"/>
+                            <constraint firstAttribute="width" constant="62" id="ux7-FL-EzO"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="$13.99">
+                                <attributes>
+                                    <font key="NSFont" size="14" name="AvenirNext-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fO-Cp-qfv">
+                        <rect key="frame" x="119" y="32" width="57" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="57" id="CA5-9a-NdH"/>
+                            <constraint firstAttribute="height" constant="20" id="kL9-OC-Xao"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Shipping">
+                                <attributes>
+                                    <font key="NSFont" size="14" name="AvenirNext-UltraLight"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxB-cE-5Is">
+                        <rect key="frame" x="184" y="32" width="59" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="59" id="SYZ-rt-xRb"/>
+                            <constraint firstAttribute="height" constant="20" id="iRa-cV-rIL"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="$13.99">
+                                <attributes>
+                                    <font key="NSFont" size="14" name="AvenirNext-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVK-eY-4qu">
+                        <rect key="frame" x="251" y="32" width="23" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="23" id="eaM-M2-Y5F"/>
+                            <constraint firstAttribute="height" constant="20" id="nLB-ma-St9"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Qty">
+                                <attributes>
+                                    <font key="NSFont" size="14" name="AvenirNext-UltraLight"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i81-Ir-RFW">
+                        <rect key="frame" x="282" y="32" width="30" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="R36-1k-Hop"/>
+                            <constraint firstAttribute="height" constant="20" id="faw-Mz-xpV"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="100">
+                                <attributes>
+                                    <font key="NSFont" size="14" name="AvenirNext-Medium"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3fO-Cp-qfv" firstAttribute="leading" secondItem="kEF-L3-oW0" secondAttribute="trailing" constant="8" id="5oP-Iy-agi"/>
+                    <constraint firstItem="kEF-L3-oW0" firstAttribute="top" secondItem="mvp-SP-RXm" secondAttribute="bottom" constant="4" id="9bj-76-QM1"/>
+                    <constraint firstItem="i81-Ir-RFW" firstAttribute="top" secondItem="mvp-SP-RXm" secondAttribute="bottom" constant="4" id="BgU-ze-2dM"/>
+                    <constraint firstItem="UmT-bK-po1" firstAttribute="leading" secondItem="fUb-dD-eho" secondAttribute="leadingMargin" id="Bm8-Gm-Ldw"/>
+                    <constraint firstItem="kEF-L3-oW0" firstAttribute="leading" secondItem="UmT-bK-po1" secondAttribute="trailing" constant="4" id="DKH-A6-3Ig"/>
+                    <constraint firstItem="mvp-SP-RXm" firstAttribute="top" secondItem="fUb-dD-eho" secondAttribute="topMargin" id="Koh-rS-l9D"/>
+                    <constraint firstItem="mvp-SP-RXm" firstAttribute="leading" secondItem="fUb-dD-eho" secondAttribute="leadingMargin" id="OLr-fk-mi1"/>
+                    <constraint firstItem="3fO-Cp-qfv" firstAttribute="top" secondItem="mvp-SP-RXm" secondAttribute="bottom" constant="4" id="Va1-N4-VEq"/>
+                    <constraint firstItem="UmT-bK-po1" firstAttribute="top" secondItem="mvp-SP-RXm" secondAttribute="bottom" constant="4" id="bL3-7D-L49"/>
+                    <constraint firstItem="gxB-cE-5Is" firstAttribute="top" secondItem="mvp-SP-RXm" secondAttribute="bottom" constant="4" id="eGf-wQ-fQl"/>
+                    <constraint firstItem="i81-Ir-RFW" firstAttribute="leading" secondItem="qVK-eY-4qu" secondAttribute="trailing" constant="8" id="iDF-nB-cbX"/>
+                    <constraint firstItem="mvp-SP-RXm" firstAttribute="trailing" secondItem="fUb-dD-eho" secondAttribute="trailingMargin" id="jbq-5M-pjP"/>
+                    <constraint firstItem="qVK-eY-4qu" firstAttribute="leading" secondItem="gxB-cE-5Is" secondAttribute="trailing" constant="8" id="rNb-6U-wHz"/>
+                    <constraint firstItem="qVK-eY-4qu" firstAttribute="top" secondItem="mvp-SP-RXm" secondAttribute="bottom" constant="4" id="x58-y5-BOA"/>
+                    <constraint firstItem="gxB-cE-5Is" firstAttribute="leading" secondItem="3fO-Cp-qfv" secondAttribute="trailing" constant="8" id="y5J-aK-bzB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="productFromPrice" destination="kEF-L3-oW0" id="DrR-pz-hkc"/>
+                <outlet property="productQuantity" destination="i81-Ir-RFW" id="IqA-uo-ssU"/>
+                <outlet property="productShipping" destination="gxB-cE-5Is" id="RhP-ka-FSv"/>
+                <outlet property="productTitleLabel" destination="mvp-SP-RXm" id="QqF-Ke-RyL"/>
+            </connections>
+            <point key="canvasLocation" x="275" y="255"/>
+        </tableViewCell>
+    </objects>
+</document>

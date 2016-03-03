@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="JjF-of-Y9X" customClass="RefundsPolicyCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JjF-of-Y9X" id="mX6-j8-EQw">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="67.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5A2-1l-myq">
+                        <rect key="frame" x="8" y="8" width="202" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="aSs-do-q58"/>
+                            <constraint firstAttribute="width" constant="202" id="gND-Vf-5u3"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Refunds Policy">
+                                <attributes>
+                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <font key="NSFont" size="14" name="AvenirNext-UltraLight"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFd-gt-3PZ">
+                        <rect key="frame" x="8" y="37" width="304" height="31"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Medium">
+                                <attributes>
+                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <font key="NSFont" size="16" name="AvenirNext-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5A2-1l-myq" firstAttribute="leading" secondItem="mX6-j8-EQw" secondAttribute="leadingMargin" id="1va-bf-Hb6"/>
+                    <constraint firstItem="zFd-gt-3PZ" firstAttribute="trailing" secondItem="mX6-j8-EQw" secondAttribute="trailingMargin" id="P45-JB-MmK"/>
+                    <constraint firstItem="5A2-1l-myq" firstAttribute="top" secondItem="mX6-j8-EQw" secondAttribute="topMargin" id="TIv-f1-Bsm"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="zFd-gt-3PZ" secondAttribute="bottom" constant="-8" id="doG-HL-yih"/>
+                    <constraint firstItem="zFd-gt-3PZ" firstAttribute="leading" secondItem="mX6-j8-EQw" secondAttribute="leadingMargin" id="lr0-FY-Z5f"/>
+                    <constraint firstItem="zFd-gt-3PZ" firstAttribute="top" secondItem="5A2-1l-myq" secondAttribute="bottom" constant="8" id="nYH-AP-xLa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="refundPolicyLabel" destination="zFd-gt-3PZ" id="iHi-3c-nWW"/>
+            </connections>
+            <point key="canvasLocation" x="290" y="220"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="68" id="vRx-4J-DMe" customClass="ReturnsPolicyCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vRx-4J-DMe" id="ygR-Vl-bC1">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="67.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3M-Nf-miu">
+                        <rect key="frame" x="8" y="8" width="202" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="3ff-Ay-dYw"/>
+                            <constraint firstAttribute="width" constant="202" id="rDF-X7-Sbv"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Returns Policy">
+                                <attributes>
+                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <font key="NSFont" size="14" name="AvenirNext-UltraLight"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivc-7A-Rm7">
+                        <rect key="frame" x="8" y="37" width="304" height="31"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Medium">
+                                <attributes>
+                                    <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <font key="NSFont" size="16" name="AvenirNext-Regular"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="ivc-7A-Rm7" secondAttribute="bottom" constant="-8" id="9gO-7o-fbt"/>
+                    <constraint firstItem="ivc-7A-Rm7" firstAttribute="trailing" secondItem="ygR-Vl-bC1" secondAttribute="trailingMargin" id="CUL-yj-VrA"/>
+                    <constraint firstItem="ivc-7A-Rm7" firstAttribute="leading" secondItem="ygR-Vl-bC1" secondAttribute="leadingMargin" id="Fxa-HJ-3Et"/>
+                    <constraint firstItem="ivc-7A-Rm7" firstAttribute="top" secondItem="o3M-Nf-miu" secondAttribute="bottom" constant="8" id="I0E-1N-1qV"/>
+                    <constraint firstItem="o3M-Nf-miu" firstAttribute="top" secondItem="ygR-Vl-bC1" secondAttribute="topMargin" id="KpH-nd-KIK"/>
+                    <constraint firstItem="o3M-Nf-miu" firstAttribute="leading" secondItem="ygR-Vl-bC1" secondAttribute="leadingMargin" id="yRz-Bw-xtI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="returnsPolicyLabel" destination="ivc-7A-Rm7" id="oHZ-9u-Ry0"/>
+            </connections>
+            <point key="canvasLocation" x="290" y="220"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StepFour">
+            <connections>
+                <outlet property="annualOutlet" destination="Wch-Ng-FH1" id="rW7-RY-F5o"/>
+                <outlet property="monthlyOutlet" destination="FFt-dT-cjE" id="QNS-E1-70h"/>
+                <outlet property="nextOutlet" destination="D4N-Mi-Yun" id="8Cm-FQ-nTl"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Wdt-as-gP5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4N-Mi-Yun">
+                    <rect key="frame" x="194" y="275" width="200" height="50"/>
+                    <color key="backgroundColor" red="0.0" green="0.50196078430000002" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="5y9-px-Uhe"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="GAU-Vt-n51"/>
+                        <constraint firstAttribute="height" constant="50" id="YbT-ys-Pfe"/>
+                        <constraint firstAttribute="width" constant="200" id="YuF-wM-vOp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="Next"/>
+                    <connections>
+                        <action selector="nextButtonAction:" destination="-1" eventType="touchUpInside" id="Bhg-5W-keZ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Plan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTv-OO-cLt">
+                    <rect key="frame" x="150" y="100" width="300" height="59"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="59" id="5nF-n9-GUg"/>
+                        <constraint firstAttribute="width" constant="300" id="8P3-TI-OcE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$75.00 / Month" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhU-qv-cKA">
+                    <rect key="frame" x="136" y="166" width="201" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="201" id="RV7-ua-oyg"/>
+                        <constraint firstAttribute="height" constant="33" id="rKe-FR-vAy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FFt-dT-cjE">
+                    <rect key="frame" x="345" y="168" width="51" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="BHL-fP-2jg"/>
+                        <constraint firstAttribute="height" constant="31" id="gTt-ST-7ru"/>
+                    </constraints>
+                    <connections>
+                        <action selector="monthlyAction:" destination="-1" eventType="valueChanged" id="elG-qM-uv5"/>
+                    </connections>
+                </switch>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wch-Ng-FH1">
+                    <rect key="frame" x="345" y="209" width="51" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="JIg-o3-fRg"/>
+                        <constraint firstAttribute="height" constant="31" id="Vj6-3H-veG"/>
+                    </constraints>
+                    <connections>
+                        <action selector="annualAction:" destination="-1" eventType="valueChanged" id="hzt-T2-xby"/>
+                    </connections>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$700.00 / Year (Save $200.00)" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jch-FE-h78">
+                    <rect key="frame" x="136" y="208" width="200" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="9DE-fG-V5P"/>
+                        <constraint firstAttribute="width" constant="200" id="D0u-Cp-4D1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="D4N-Mi-Yun" firstAttribute="top" secondItem="vTv-OO-cLt" secondAttribute="bottom" constant="116" id="2AO-Ep-7QC"/>
+                <constraint firstItem="Wch-Ng-FH1" firstAttribute="trailing" secondItem="D4N-Mi-Yun" secondAttribute="trailing" id="5io-ep-1u1"/>
+                <constraint firstItem="vTv-OO-cLt" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5t0-vl-Eab"/>
+                <constraint firstItem="FFt-dT-cjE" firstAttribute="leading" secondItem="GhU-qv-cKA" secondAttribute="trailing" constant="8" id="FKI-QF-1MY"/>
+                <constraint firstItem="Wch-Ng-FH1" firstAttribute="top" secondItem="FFt-dT-cjE" secondAttribute="bottom" constant="10" id="KOb-Ra-hu2"/>
+                <constraint firstItem="D4N-Mi-Yun" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="M8g-ob-hfU"/>
+                <constraint firstItem="GhU-qv-cKA" firstAttribute="top" secondItem="vTv-OO-cLt" secondAttribute="bottom" constant="7" id="b7r-1T-E22"/>
+                <constraint firstItem="Jch-FE-h78" firstAttribute="top" secondItem="GhU-qv-cKA" secondAttribute="bottom" constant="9" id="chS-IX-SU4"/>
+                <constraint firstItem="Wch-Ng-FH1" firstAttribute="leading" secondItem="Jch-FE-h78" secondAttribute="trailing" constant="9" id="dCh-hA-nDk"/>
+                <constraint firstItem="FFt-dT-cjE" firstAttribute="trailing" secondItem="D4N-Mi-Yun" secondAttribute="trailing" id="iIn-od-0fL"/>
+                <constraint firstItem="FFt-dT-cjE" firstAttribute="top" secondItem="vTv-OO-cLt" secondAttribute="bottom" constant="9" id="kh0-VZ-vRh"/>
+                <constraint firstItem="vTv-OO-cLt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="ljv-CD-WOk"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

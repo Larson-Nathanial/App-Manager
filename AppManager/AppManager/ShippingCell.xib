@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="141" id="orJ-a5-NBJ" customClass="ShippingCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="orJ-a5-NBJ" id="WBl-dD-bmp">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="140.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nathan Larson" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMW-CY-Muo">
+                        <rect key="frame" x="8" y="8" width="304" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="PUf-Uf-APX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="101 Mail Road" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIo-OA-Z1t">
+                        <rect key="frame" x="8" y="38" width="304" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="m1C-C0-UMY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Othello, WA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoN-mP-joY">
+                        <rect key="frame" x="8" y="62" width="304" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="w8B-aW-GOS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEv-1c-hUU">
+                        <rect key="frame" x="8" y="111" width="304" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="RtU-N9-49F"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99344" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugi-yp-FbU">
+                        <rect key="frame" x="8" y="87" width="304" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="ZCG-Te-G9N"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="AIo-OA-Z1t" firstAttribute="top" secondItem="DMW-CY-Muo" secondAttribute="bottom" constant="3" id="1M4-Gm-gnA"/>
+                    <constraint firstItem="DMW-CY-Muo" firstAttribute="trailing" secondItem="WBl-dD-bmp" secondAttribute="trailingMargin" id="5Ac-jf-zU6"/>
+                    <constraint firstItem="ugi-yp-FbU" firstAttribute="leading" secondItem="WBl-dD-bmp" secondAttribute="leadingMargin" id="893-et-j27"/>
+                    <constraint firstItem="ugi-yp-FbU" firstAttribute="top" secondItem="eoN-mP-joY" secondAttribute="bottom" id="CEW-Kw-RYb"/>
+                    <constraint firstItem="ugi-yp-FbU" firstAttribute="trailing" secondItem="WBl-dD-bmp" secondAttribute="trailingMargin" id="Pz8-14-rKz"/>
+                    <constraint firstItem="eoN-mP-joY" firstAttribute="trailing" secondItem="WBl-dD-bmp" secondAttribute="trailingMargin" id="QNj-qI-ak8"/>
+                    <constraint firstItem="XEv-1c-hUU" firstAttribute="top" secondItem="eoN-mP-joY" secondAttribute="bottom" constant="24" id="Rz0-RV-SYc"/>
+                    <constraint firstItem="eoN-mP-joY" firstAttribute="leading" secondItem="WBl-dD-bmp" secondAttribute="leadingMargin" id="STQ-Ay-W3T"/>
+                    <constraint firstItem="XEv-1c-hUU" firstAttribute="trailing" secondItem="WBl-dD-bmp" secondAttribute="trailingMargin" id="aFi-WT-Cyw"/>
+                    <constraint firstItem="AIo-OA-Z1t" firstAttribute="leading" secondItem="WBl-dD-bmp" secondAttribute="leadingMargin" id="dZh-ee-23C"/>
+                    <constraint firstItem="DMW-CY-Muo" firstAttribute="leading" secondItem="WBl-dD-bmp" secondAttribute="leadingMargin" id="hNJ-BO-1ph"/>
+                    <constraint firstItem="AIo-OA-Z1t" firstAttribute="trailing" secondItem="WBl-dD-bmp" secondAttribute="trailingMargin" id="i5D-ug-YNB"/>
+                    <constraint firstItem="XEv-1c-hUU" firstAttribute="leading" secondItem="WBl-dD-bmp" secondAttribute="leadingMargin" id="sXT-XH-etK"/>
+                    <constraint firstItem="DMW-CY-Muo" firstAttribute="top" secondItem="WBl-dD-bmp" secondAttribute="topMargin" id="uha-Uw-tlx"/>
+                    <constraint firstItem="eoN-mP-joY" firstAttribute="top" secondItem="DMW-CY-Muo" secondAttribute="bottom" constant="27" id="xPj-MY-g29"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="shippingCityState" destination="eoN-mP-joY" id="y3v-lM-Akl"/>
+                <outlet property="shippingCountry" destination="XEv-1c-hUU" id="7be-GK-j2w"/>
+                <outlet property="shippingName" destination="DMW-CY-Muo" id="rTG-HY-bcU"/>
+                <outlet property="shippingStreet" destination="AIo-OA-Z1t" id="KYl-wK-QCI"/>
+                <outlet property="shippingZip" destination="ugi-yp-FbU" id="PqF-E7-99t"/>
+            </connections>
+            <point key="canvasLocation" x="318" y="292.5"/>
+        </tableViewCell>
+    </objects>
+</document>
