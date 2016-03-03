@@ -14,7 +14,7 @@
 
 @end
 
-NSString * const StripePublishableKey = @"pk_live_xVWjWBwKv3fXrPZxEP08S9Un";
+NSString * const StripePublishableKey = @"MYPRIVATEKEYGOESHERE";
 
 @implementation AppDelegate
 
